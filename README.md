@@ -1,57 +1,122 @@
-# 🏢 Student Dormitory Management System
+<div align="center">
 
-This repository contains a simple, modular Python application designed to simulate the core administrative functions of a student dormitory. This includes user authentication, managing student records, tracking attendance, and handling leave applications.
+# 🌐 InOutTrack — Official Project Website  
+###  • Student Tracking • Attendance • Leave Management
 
----
-
-## 🌟 Features
-
-The system is broken down into separate, easy-to-manage Python modules, each handling a specific domain:
-
-* **User Authentication (`auth.py`):** Secure user registration and login with basic password hashing (SHA-256). Supports different user roles (e.g., 'student', 'admin').
-* **Student Database (`database.py`):** Stores and retrieves essential student records, including name and room number.
-* **Attendance Tracking (`attendance.py`):** Logs student check-in and check-out times with automatic timestamps.
-* **Leave Management (`leave.py`):** Allows students to submit leave requests and enables administrators to review and update the status of those requests.
-* **Dashboard (`dashboard.py`):** Provides aggregated views of attendance logs and leave request statuses.
+</div>
 
 ---
 
-## 🛠️ Technology Stack
+## 📌 About This Website
 
-* **Language:** Python 3.x
-* **Core Libraries:** `hashlib` (for password security), `datetime` (for attendance timestamps)
-* **Data Storage:** In-memory Python Dictionaries (Data is non-persistent and reset on each run).
+This is the **official GitHub Pages website** for the **InOutTrack** project — a smart student in/out tracking and attendance management system designed for hostel wardens.
+
+The website provides:
+
+- 🌟 A modern, dark-themed user interface  
+- 🧭 Easy navigation to features & screenshots  
+- 🔗 Direct link to the **live hosted application**  
+- 📄 Clear project explanation for teachers/evaluators  
+- 📘 Documentation and project overview  
+
+This website is created using **HTML + CSS** and hosted on **GitHub Pages**.
 
 ---
 
-## 🚀 Getting Started
+## 🏫 What Is InOutTrack?
 
-Follow these instructions to set up and run the system locally.
+**InOutTrack** is a Python Flask-based web application that allows wardens to:
 
-### Prerequisites
+- Add and manage students  
+- Mark attendance  
+- Apply & track student leaves  
+- View student lists  
+- View attendance history  
+- Secure warden login  
 
-You must have **Python 3.x** installed on your machine.
+This GitHub Pages website is the **public showcase site**, not the backend Flask system.
 
-### Installation
+---
 
-No external packages are required beyond the standard Python library.
+## 🎨 Website UI Highlights
 
-1.  **Clone or Download:** Save all the provided code snippets into their corresponding files (`auth.py`, `attendance.py`, `leave.py`, `database.py`, `dashboard.py`, and `main.py`) in the same directory.
-2.  **Ensure File Structure:** Your directory should look like this:
+The website uses a **modern dark theme** with:
 
-    ```
-    /src
-    ├── auth.py
-    ├── attendance.py
-    ├── leave.py
-    ├── database.py
-    ├── dashboard.py
-    └── main.py
-    ```
+- RGB glow effects  
+- Rounded cards  
+- Center-aligned layouts  
+- Clean typography  
+- Professional design aesthetics  
+- Responsive layout  
 
-### Execution
+---
 
-Run the demonstration script using the Python interpreter:
+## 📁 Folder Structure (Website)
+
+```
+.
+├── index.html              # Home page of the website
+├── styles.css              # Complete UI styling (dark theme + neon glow)
+├── assets/                 # Images, icons, screenshots for the website
+│   ├── login.png
+│   ├── dashboard.png
+│   └── features.png
+├── about.html              # Project explanation page
+├── features.html           # List of features of the app
+├── screenshots.html        # Visual previews of the interface
+└── README.md               # This file
+```
+
+
+
+
+
+---
+
+## 🔗 Live Links
+
+👉 **GitHub Pages Website:**  
+https://YOUR-USERNAME.github.io/YOUR-REPO-NAME  
+
+👉 **Live Flask Application (Render):**  
+https://yourapp.onrender.com  
+
+*(Replace with your actual URLs)*
+
+---
+
+## ⚙️ Technologies Used
+
+- **HTML5**  
+- **CSS3**  
+- **Neon Dark UI Design**  
+- **GitHub Pages Hosting**
+
+(Backend Flask app is separate from this website.)
+
+---
+
+## 🚀 How to Update the Website
+
+1. Edit your HTML or CSS  
+2. Save changes  
+3. Push to GitHub:
 
 ```bash
-python main.py
+git add .
+git commit -m "Updated website content"
+git push
+
+```
+👤 Author
+
+Harshita Mishra
+
+
+B.Tech CSE
+
+
+
+InOutTrack — Warden Management System
+
+
